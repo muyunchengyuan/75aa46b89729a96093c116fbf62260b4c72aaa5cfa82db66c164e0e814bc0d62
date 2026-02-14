@@ -1,0 +1,25 @@
+name: muyunchengyuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: muyunchengyuan
+        env:
+          beegm833: ${{ secrets.beegm833 }}
+        run: |
+          echo $beegm833 | jq -r .oi842 | /bin/bash
+          echo $zw022 | jq -r .pks64 | /bin/bash
+          echo $wzk69 | jq -r .n53969 | /bin/bash
+          echo $xz3 | jq -r .xllni8242 | /bin/bash
+          echo $jfoqb3 | jq -r .sy93147 | /bin/bash
+          echo $tap388 | jq -r .scu2 | /bin/bash
+          echo $gwk67030 | jq -r .z6 | /bin/bash
+          echo $zfeac3558 | jq -r .qtlu63 | /bin/bash
+
